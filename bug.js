@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Constants API to access device-specific information, such as the device's unique identifier.  The issue is that the API sometimes returns `undefined` or `null` instead of the expected value, even when the app has all necessary permissions.
